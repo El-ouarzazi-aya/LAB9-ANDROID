@@ -1,0 +1,31 @@
+<resources>
+
+    <style name="text">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/bleu_fonce</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingBottom">4dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="input">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:background">@android:color/white</item>
+        <item name="android:paddingLeft">8dp</item>
+    </style>
+
+    <style name="BoutonPrincipal">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">56dp</item>
+        <item name="android:backgroundTint">@color/bleu_primaire</item>
+        <item name="android:textColor">@color/blanc</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginTop">12dp</item>
+    </style>
+
+</resources>

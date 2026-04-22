@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme -->
+    <style name="Base.Theme.Projetws" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customisation ici si besoin -->
+    </style>
+
+    <!-- Theme principal -->
+    <style name="Theme.Projetws" parent="Base.Theme.Projetws">
+        <item name="colorPrimary">@color/bleu_primaire</item>
+        <item name="colorPrimaryDark">@color/bleu_fonce</item>
+        <item name="colorAccent">@color/bleu_clair</item>
+        <item name="android:windowBackground">@color/gris_clair</item>
+    </style>
+
+</resources>

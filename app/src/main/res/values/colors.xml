@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bleu_primaire">#1565C0</color>
+    <color name="bleu_fonce">#0D47A1</color>
+    <color name="bleu_clair">#42A5F5</color>
+    <color name="blanc">#FFFFFF</color>
+    <color name="gris_clair">#F5F5F5</color>
+    <color name="texte_sombre">#212121</color>
+</resources>

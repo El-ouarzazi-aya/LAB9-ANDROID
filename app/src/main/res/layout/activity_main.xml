@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/gris_clair">
+
+    <!-- Header bleu -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@color/bleu_primaire"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:text="🎓"
+            android:textSize="48sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="Gestion des Étudiants"
+            android:textSize="22sp"
+            android:textColor="@color/blanc"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"/>
+
+        <TextView
+            android:text="Université Cadi Ayyad"
+            android:textSize="14sp"
+            android:textColor="#BBDEFB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"/>
+    </LinearLayout>
+
+    <!-- Boutons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <Button
+            android:id="@+id/btnAdd"
+            android:text="Inscrire un Étudiant"
+            style="@style/BoutonPrincipal"
+            android:layout_marginBottom="16dp"/>
+
+        <Button
+            android:id="@+id/btnList"
+            android:text="Voir tous les Étudiants"
+            style="@style/BoutonPrincipal"
+            android:backgroundTint="@color/bleu_fonce"/>
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gris_clair">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- Titre -->
+        <TextView
+            android:text="Fiche d'inscription"
+            android:textSize="20sp"
+            android:textColor="@color/bleu_primaire"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView android:text="Nom :" style="@style/text"/>
+        <EditText
+            android:id="@+id/nom"
+            style="@style/input"
+            android:hint="Entrez le nom"
+            android:inputType="textPersonName"/>
+
+        <TextView android:text="Prénom :" style="@style/text"/>
+        <EditText
+            android:id="@+id/prenom"
+            style="@style/input"
+            android:hint="Entrez le prénom"
+            android:inputType="textPersonName"/>
+
+        <TextView android:text="Ville :" style="@style/text"/>
+        <Spinner
+            android:id="@+id/ville"
+            style="@style/input"
+            android:entries="@array/villes"/>
+
+        <TextView android:text="Sexe :" style="@style/text"/>
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp">
+            <RadioButton
+                android:id="@+id/m"
+                android:text="Homme"
+                android:checked="true"
+                android:buttonTint="@color/bleu_primaire"/>
+            <RadioButton
+                android:id="@+id/f"
+                android:text="Femme"
+                android:buttonTint="@color/bleu_primaire"/>
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/add"
+            android:text="Inscrire l'Étudiant"
+            style="@style/BoutonPrincipal"/>
+
+    </LinearLayout>
+</ScrollView>
